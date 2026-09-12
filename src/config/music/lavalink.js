@@ -62,9 +62,9 @@ export function getLavalinkNodes() {
         return fromFile;
     }
 
-    const host = process.env.LAVALINK_HOST || 'localhost';
-    const port = Number(process.env.LAVALINK_PORT || 2333);
-    const password = process.env.LAVALINK_PASSWORD || 'youshallnotpass';
+    const host = process.env.LAVALINK_HOST || 'free-lava.heavencloud.in';
+    const port = Number(process.env.LAVALINK_PORT || 4000);
+    const password = process.env.LAVALINK_PASSWORD || 'heavencloud.in';
     const secure = parseBoolean(process.env.LAVALINK_SECURE, false);
 
     return [{
